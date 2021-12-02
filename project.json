@@ -5,8 +5,10 @@
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.2]",
+    "UiPath.PDF.Activities": "[3.4.1]",
     "UiPath.System.Activities": "[21.10.1]",
-    "UiPath.UIAutomation.Activities": "[21.10.3]"
+    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPathTeam.TwoStepAuthentication.Activities": "[1.1.7382.28686]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -14,6 +16,7 @@
   "studioVersion": "21.10.1.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "ExceptionsHandling\\GlobalHandler.xaml",
     "autoDispose": false,
     "isPausable": true,
     "isAttended": false,
